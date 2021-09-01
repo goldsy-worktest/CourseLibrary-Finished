@@ -14,10 +14,6 @@ namespace CourseLibrary.API.DbContexts
         public DbSet<Author> Authors { get; set; }
         public DbSet<Course> Courses { get; set; }
 
-        /// <summary>
-        /// Callback method when creating the DB models.
-        /// </summary>
-        /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // seed the database with dummy data
