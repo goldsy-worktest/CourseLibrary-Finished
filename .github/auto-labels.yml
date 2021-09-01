@@ -1,2 +1,2 @@
 database:
-- any: ['CourseLibrary.API/DbContexts', 'CourseLibrary.API/Models']
+- any: ['CourseLibrary.API/DbContexts/*', 'CourseLibrary.API/Models/*']
