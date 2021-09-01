@@ -1,1 +1,2 @@
-
+database:
+- any: ['CourseLibrary.API/DbContexts', 'CourseLibrary.API/Models']
